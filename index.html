@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Detective Conan | Mystery Case</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!-- Background decoration -->
+    <div class="red-circle"></div>
+    <div class="red-circle circle-two"></div>
+
+
+    <main class="page">
+
+        <!-- Top badge -->
+        <div class="case-number">
+            CASE FILE #001
+        </div>
+
+
+        <!-- Main Case Card -->
+        <section class="case-card">
+
+
+            <!-- Header -->
+            <div class="header">
+
+                <div class="conan-image">
+                    <img src="conan.jpg" alt="Detective Conan">
+                </div>
+
+                <div>
+                    <p class="small-title">DETECTIVE CONAN</p>
+
+                    <h1>
+                        The Mystery Case
+                    </h1>
+                </div>
+
+            </div>
+
+
+            <div class="divider"></div>
+
+
+            <!-- Story -->
+            <div class="story">
+
+                <p class="story-title">
+                    🕵️ YOUR MISSION
+                </p>
+
+                <p>
+                    You've followed the clues, solved the puzzles,
+                    and uncovered the final secret.
+                </p>
+
+                <p>
+                    Now, only one thing remains...
+                </p>
+
+                <strong>
+                    Can you prove that you're a real detective?
+                </strong>
+
+            </div>
+
+
+            <!-- Code Section -->
+            <div class="code-section">
+
+                <label for="codeInput">
+                    ENTER THE SECRET CODE
+                </label>
+
+                <div class="input-wrapper">
+
+                    <span>🔐</span>
+
+                    <input type="text" id="codeInput" placeholder="••••" maxlength="10" autocomplete="off">
+
+                </div>
+
+
+                <button onclick="checkCode()">
+
+                    <span>🔍</span>
+
+                    SOLVE THE CASE
+
+                </button>
+
+            </div>
+
+
+            <!-- Result -->
+            <div id="result"></div>
+
+
+            <!-- Footer -->
+            <div class="footer">
+
+                <span>SPACETOON</span>
+
+                <span>•</span>
+
+                <span>ADVENTURES PLANET</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- Bottom text -->
+        <p class="bottom-text">
+            Every clue matters. Every detail tells a story.
+        </p>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
