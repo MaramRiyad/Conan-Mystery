@@ -1,4 +1,4 @@
-const correctCode = "Maram";
+const correctCode = "EDOGAWA";
 
 function checkCode() {
 
